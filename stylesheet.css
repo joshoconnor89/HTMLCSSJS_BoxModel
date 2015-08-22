@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+div.wrapper {
+	width: 980px;
+	min-height: 600px;
+	margin: 30px auto;
+	background-color: green;
+	border:10px solid red;
+	
+	
+}
+
+header {
+	width: 100%;
+	background-color: pink;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	
+	
+}
+
+
+nav {
+	text-align: center;
+    line-height:30px;
+	background-color: orange;
+	padding: 5px 0 5px 0;
+}
+
+nav li {
+    list-style:none;
+    margin: 0 5px;
+    display:inline;
+	
+    }
+
+body {
+	background-color: purple;
+}
+
+
+section {
+	width: 60%;
+	float: left;
+	background-image: url("images/tvdinner635x640.jpg");
+	height: 600px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section p {
+	padding: 25px 40px 5px 150px;
+}
+
+
+article {
+	width: 40%;
+	float:left;
+	
+}
+
+article img {
+	display: block;
+	margin: 30px auto;
+}
+
+article p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align:center;
+	font-style: italic;
+	font-size: 10px;
+	color: #444;
+	padding: 15px 0;
+	background-color: blue;
+}
